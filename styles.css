@@ -1,0 +1,135 @@
+body {
+    background: #999999;
+    background-image: url("stemlgbt2.png");
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, li {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.navbar li {
+    float: left;
+
+}
+
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar li a:hover {
+    background-color: #cccccc;
+    opacity: 1;
+}
+
+.content {
+    margin-top: 3px;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    border-radius: 5px;
+    filter: alpha(opacity=70);
+    background-color: rgba(255,255,255,0.9);
+    padding: 1.5%
+}
+.content p {
+    color: #000000;
+    
+}
+.content h1, h2, h3 {
+    color: #000000;
+    text-align: center;
+    overflow: auto;
+}
+
+.teaser {
+    opacity: 100;
+    border: 1px solid black;
+    width: 20%;
+    border-radius: 5px;
+    background: #ffffff;
+    height: auto;
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 5%
+}
+ a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+ 
+.teaser img {
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.rightImg {
+    float: right;
+    margin: 14px;
+    overflow: auto;
+}
+.leftImg {
+    float: left;
+    overflow: auto;
+    margin: 14px;
+} 
+.centerImg {
+    float: center;
+    overflow: auto;
+    margin: auto;
+    display: block;
+}
+#backgroundimgs {
+    display: inline; 
+}
+#clickme {
+    text-align:center;
+}
+
+.bttn {
+   position:relative;
+   display: inline-block;
+   float:center;
+   margin-right: 10px;
+   margin-left: 10px;
+   border: 1px solid black;
+   background-color: #ffffff;
+   margin-bottom: 20px;
+   margin-top: 15px;
+   
+}
+.bttn:hover {
+    border: 3px solid black;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 14px;
+    
+}
